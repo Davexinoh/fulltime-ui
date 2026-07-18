@@ -3,9 +3,8 @@
 export type FixtureInfo = { name: string; stage: string; kickoff: string };
 
 export const FIXTURES: Record<string, FixtureInfo> = {
-  "18213979": { name: "Norway vs England", stage: "Quarter-final", kickoff: "2026-07-11T21:00:00Z" },
-  "18222446": { name: "Argentina vs Switzerland", stage: "Quarter-final", kickoff: "2026-07-12T01:00:00Z" },
-  "18237038": { name: "France vs Spain", stage: "Semi-final", kickoff: "2026-07-14T19:00:00Z" },
+  "18257865": { name: "France vs England", stage: "Third place", kickoff: "2026-07-18T21:00:00Z" },
+  "18257739": { name: "Spain vs Argentina", stage: "Final", kickoff: "2026-07-19T19:00:00Z" },
 };
 
 // Merged at runtime with backend fixtures (backend wins).
